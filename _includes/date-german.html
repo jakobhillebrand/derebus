@@ -1,7 +1,7 @@
 {% assign formattedDate = '' %}
 
 {% if include.showDay %}
-    {% assign formattedDate = include.date | date: '%-d' | append: '. '%}
+    {% assign formattedDate = include.date | date: '%d' | append: '. '%}
 {% endif %}
 
 {% assign monthNames = 'Januar,Februar,März,April,Mai,Juni,Juli,August,September,Oktober,November,Dezember' %}
