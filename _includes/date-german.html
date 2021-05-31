@@ -1,15 +1,15 @@
-{% assign m = page.date | date: “%-m” %}
-{% case m %}
-{% when ‘1’ %}Januar
-{% when ‘2’ %}Februar
-{% when ‘3’ %}März
-{% when ‘4’ %}April
-{% when ‘5’ %}Mai
-{% when ‘6’ %}Juni
-{% when ‘7’ %}Juli
-{% when ‘8’ %}August
-{% when ‘9’ %}September
-{% when ‘10’ %}Oktober
-{% when ‘11’ %}November
-{% when ‘12’ %}Dezember
+{% assign B = page.date | date: “%B” %}
+{% case B %}
+{% when ‘January’ %}Januar
+{% when ‘February’ %}Februar
+{% when ‘March’ %}März
+{% when ‘April’ %}April
+{% when ‘May’ %}Mai
+{% when ‘June’ %}Juni
+{% when ‘July’ %}Juli
+{% when ‘August’ %}August
+{% when ‘September’ %}September
+{% when ‘October’ %}Oktober
+{% when ‘November’ %}November
+{% when ‘December’ %}Dezember
 {% endcase %}
