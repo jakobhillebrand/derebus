@@ -13,7 +13,7 @@ layout: default
 
     {% if page.date %}
       <br>
-      <span>on&nbsp;</span><time datetime="{{ page.date }}">{{ page.date | date: "%d. %B %Y" }}{{ formattedDate }}</time>
+      <span>on&nbsp;</span><time datetime="{{ page.date }}">{{ page.date | formattedDate }}{{ formattedDate }}</time>
     {% endif %}
   </div>
 
