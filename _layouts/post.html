@@ -14,7 +14,7 @@ layout: default
     {% if page.date %}
     {% include date-german.html %}
       <br>
-      <span>on&nbsp;</span><time datetime="{{ page.date }}">{{ page.date | date: "%d. %B %Y" }}{% include date-german.html %}</time>
+      <span>on&nbsp;</span>{% include date-german.html %}<time datetime="{{ page.date }}">{% include date-german.html %}{{ page.date | date: "%d. %B %Y" }}{% include date-german.html %}</time>
     {% include date-german.html %}
     {% endif %}
   </div>
