@@ -11,13 +11,12 @@ layout: default
         {{ site.author.name }}
     {% endif %}
 
+    {% include date-german.html %}
     {% if page.date %}
+    {% include date-german.html %}
       <br>
-      <span>on&nbsp;</span><time datetime="{{ page.date }}">{{ page.date | date: "%d. %B %Y" }}</time>
+      <span>on&nbsp;</span><time datetime="{{ page.date }}">{{ page.date }}</time>
     {% endif %}
-    
-    {% include date-german.html date=post.date %}
-Veröffentlichungsdatum: {{ formattedDate }}
     
   </div>
 
