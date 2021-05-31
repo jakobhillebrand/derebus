@@ -1,3 +1,5 @@
+<!-- page.date → singular post pages -->
+
 {% assign m = page.date | date: "%-m" %}
 {{ page.date | date: "%d." }}
 {% case m %}
@@ -16,6 +18,8 @@
 {% endcase %}
 {{ page.date | date: "%Y" }}
 
+
+<!-- post.date → post-list/catalogue -->
 
 {% assign m = post.date | date: "%-m" %}
 {{ post.date | date: "%d." }}
