@@ -3,8 +3,7 @@
     {% if include.sticky == 'true' %}
     <span class="catalogue-pinned">Angeheftet &middot;</span>
     {% endif %}
-    <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%d. %B %Y" }}</time>
-    <time datetime="{{ page.date }}">{% include date-german.html %}</time> 
+    <time datetime="{{ post.date }}" class="catalogue-time">{% include date-german.html %}</time> 
     <h1 class="catalogue-title">{{ post.title }}</h1>
     <div class="catalogue-line"></div>
 
