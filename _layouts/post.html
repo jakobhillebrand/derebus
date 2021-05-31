@@ -2,6 +2,8 @@
 layout: default
 ---
 
+{% include date-german.html %}
+
 <div class="post">
   <div class="post-info">
     <span>Written by</span>
@@ -10,6 +12,8 @@ layout: default
     {% else %}
         {{ site.author.name }}
     {% endif %}
+    
+    {% include date-german.html %}
 
     {% if page.date %}
     {% include date-german.html %}
@@ -17,7 +21,9 @@ layout: default
       <span>on&nbsp;</span>{% include date-german.html %}<time datetime="{{ page.date }}">{% include date-german.html %}{{ page.date | date: "%d. %B %Y" }}{% include date-german.html %}</time>
     {% include date-german.html %}
     {% endif %}
+   {% include date-german.html %}
   </div>
+  {% include date-german.html %}
 
   <h1 class="post-title">{{ page.title }}</h1>
   <div class="post-line"></div>
