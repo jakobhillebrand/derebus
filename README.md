@@ -1,4 +1,4 @@
-# De Rebus
+### De Rebus
 
 ... ist mein kleiner Blog, in dem ich über Dinge schreibe.
 
