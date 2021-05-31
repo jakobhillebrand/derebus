@@ -13,38 +13,7 @@ layout: default
         {{ site.author.name }}
     {% endif %}
 
-    
-    {% assign B = page.date | date: “%B” %}
-{% case B %}
-{% when ‘January’ %}Januar
-{% when ‘February’ %}Februar
-{% when ‘March’ %}März
-{% when ‘April’ %}April
-{% when ‘May’ %}Mai
-{% when ‘June’ %}Juni
-{% when ‘July’ %}Juli
-{% when ‘August’ %}August
-{% when ‘September’ %}September
-{% when ‘October’ %}Oktober
-{% when ‘November’ %}November
-{% when ‘December’ %}Dezember
-{% endcase %}
     {% if page.date %}
-    {% assign B = page.date | date: “%B” %}
-{% case B %}
-{% when ‘January’ %}Januar
-{% when ‘February’ %}Februar
-{% when ‘March’ %}März
-{% when ‘April’ %}April
-{% when ‘May’ %}Mai
-{% when ‘June’ %}Juni
-{% when ‘July’ %}Juli
-{% when ‘August’ %}August
-{% when ‘September’ %}September
-{% when ‘October’ %}Oktober
-{% when ‘November’ %}November
-{% when ‘December’ %}Dezember
-{% endcase %}
       <br>
       <span>on&nbsp;</span><time datetime="{{ page.date }}">{{ page.date | date: "%d. %B %Y" }}</time>
     {% endif %}
