@@ -3,16 +3,6 @@
     &copy; <time datetime="{{ site.time }}">{{ site.time | date: '%Y' }}</time> &middot; {{ site.author.name }}
   </span>
   
-  <i class="fa fa-stack-overflow"></i>
-  
-        <ul>
-          {% if site.social.email %}
-            <li><a target="_blank" href="mailto:{{ site.social.email }}"><i class="fas fa-envelope"></i></a></li>
-          {% endif %}
-          {% if site.social.github %}
-            <li><a target="_blank" href="{{ site.social.github }}"><i class="fab fa-github"></i></a></li>
-          {% endif %}
-        </ul>
-      
+  <a target="_blank" href="{{ site.social.github }}"><i class="fab fa-github"></i></a>   
   
 </footer>
