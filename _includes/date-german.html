@@ -1,12 +1,18 @@
-{% assign formattedDate = '' %}
-
-{% if include.showDay %}
-    {% assign formattedDate = include.date | date: '%d' | append: '. '%}
-{% endif %}
-
-{% assign monthNames = 'Januar,Februar,März,April,Mai,Juni,Juli,August,September,Oktober,November,Dezember' %}
-{% assign monthNames = monthNames | split: ',' %}
-{% assign month = include.date | date: '%-m' | minus: 1 %}
-
-{% assign formattedDate = formattedDate | append: monthNames[month] %}
-{% assign formattedDate = include.date | date: '%Y' | prepend: ' ' | prepend: formattedDate %}
+<!-- Whitespace added for readability -->
+{% assign m = page.date | date: "%-m" %}
+{{ page.date | date: "%-d" }}
+{% case m %}
+  {% when '1' %}Januar
+  {% when '2' %}Februar
+  {% when '3' %}M&auml;rz
+  {% when '4' %}April
+  {% when '5' %}Mai
+  {% when '6' %}Juni
+  {% when '7' %}Juli
+  {% when '8' %}August
+  {% when '9' %}September
+  {% when '10' %}Oktober
+  {% when '11' %}November
+  {% when '12' %}Dezember
+{% endcase %}
+{{ page.date | date: "%Y" }}
