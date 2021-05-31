@@ -1,7 +1,7 @@
 # Site settings
 title:          De Rerum
 description:    "Ich über die Dinge"
-url:            "https://chesterhow.github.io"
+url:            "https://jakobhillebrand.github.io/derebus/"
 
 # Google Analytics
 google_analytics: UA—XXXXXXXX-X
@@ -9,7 +9,7 @@ google_analytics: UA—XXXXXXXX-X
 # Author
 author:
   name:         Jakob Hillebrand
-  url:          https://chester.how
+  url:          https://jakobhillebrand.github.io/derebus/
   email:        jakobhillebrand2001@gmail.com
 
 # Build settings
