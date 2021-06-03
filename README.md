@@ -10,4 +10,5 @@ Wenn Du trotzdem an meiner Konfiguration eines deutschsprachigen Web-Blogs inter
 
 Mein Blog wird durch Jekyll generiert und basiert auf dem Theme Tale, welches ich angepasst habe.
 
-<a href='https://ko-fi.com/U7U84UI3N' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi5.png?v=2' border='0' alt='Spende via Ko-fi' /></a>
+
+<a href='https://ko-fi.com/U7U84UI3N' target='_blank'><img height='30' style='border:0px;height:30px;' src='https://cdn.ko-fi.com/cdn/kofi5.png?v=2' border='0' alt='Spende via Ko-fi' /></a>
