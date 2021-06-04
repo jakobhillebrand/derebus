@@ -32,3 +32,55 @@ permalink: /kontakt/
         <button type="submit" class="btn btn-lg btn-dark btn-block">Senden</button>
     </form>
 </div>
+
+<style>
+.form-control {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.submit-button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+}
+
+.container {
+  padding: 20px;
+}
+</style>
+
+<div class="container">
+  <form action="" method="POST" enctype="multipart/form-data">
+    <input type="text" name="Name" class="form-control" placeholder="Name" required>
+
+     <input type="email" name="E-Mail" class="form-control" placeholder="E-Mail-Adresse" required>
+     
+     <input type="text" name="Betreff" class="form-control" placeholder="Betreff" required>
+
+    <textarea placeholder="Deine Nachricht" class="form-control" name="Nachricht" rows="10" required></textarea>
+    
+    <input type="file" name="Anhang">
+    
+    <input type="text" name="_honey" style="display:none">
+        <input type="hidden" name="_subject" value="Kontakt ‚De Rebus‘">
+        <input type="hidden" name="_next" value="./kontakt-erfolg.html">
+<div>
+    <input type="submit" value="Submit" class="submit-button">
+    </div>
+  </form>
+</div>
+
