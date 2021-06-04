@@ -7,7 +7,7 @@ permalink: /kontakt/
 <h1 class="post-title">{{ page.title }}</h1>
 
 <div>
-    <form target="_blank" action="https://formsubmit.co/jakobhillebrand2001@gmail.com" method="POST">
+    <form action="https://formsubmit.co/72391d7114c12ea7e08783b659b70e06" method="POST" enctype="multipart/form-data">
         <div class="form-group">
             <div class="form-row">
                 <div class="col">
@@ -21,7 +21,13 @@ permalink: /kontakt/
         <div class="form-group">
             <input type="text" name="Betreff" class="form-control" placeholder="Betreff" required>
             <textarea placeholder="Deine Nachricht" class="form-control" name="Nachricht" rows="10" required></textarea>
+            <input type="file" name="Anhang">
         </div>
+        
+        <input type="text" name="_honey" style="display:none">
+        <input type="hidden" name="_subject" value="Kontakt ‚De Rebus‘">
+        <input type="hidden" name="_next" value="./kontakt-erfolg.html">
+        
         <button type="submit" class="btn btn-lg btn-dark btn-block">Senden</button>
     </form>
 </div>
