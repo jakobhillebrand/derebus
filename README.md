@@ -10,5 +10,6 @@ Wenn Du trotzdem an meiner Konfiguration eines deutschsprachigen Web-Blogs inter
 
 Mein Blog wird durch Jekyll generiert und basiert auf dem Theme Tale, welches ich angepasst habe.
 
+<br/>
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/U7U84UI3N)
