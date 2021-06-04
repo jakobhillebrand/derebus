@@ -12,6 +12,8 @@
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
+  font-family: $serif-primary;
+  font-size: 1rem;
 }
 
 .file-upload {
@@ -19,6 +21,8 @@
   display: inline-block;
   padding: 3px 6px;
   cursor: pointer;
+  font-family: $serif-primary;
+  font-size: 1rem;
 }
 
 .submit-button {
@@ -30,6 +34,8 @@
   cursor: pointer;
   margin-top: 24px;
   margin-bottom: 16px;
+  font-family: $serif-primary;
+  font-size: 1rem;
 }
 
 .submit-button:hover {
