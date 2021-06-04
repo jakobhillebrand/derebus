@@ -5,9 +5,8 @@
 ### Wer schreibt?
 
 Hiii, ich bin Jakob Hillebrand. Ich bin der Hauptautor des Blogs, ob ich ab und zu Gastautoren einladen werde, steht noch aus. :sweat_smile:\
-Ich bin Student der Germanistik und Philosophie. Andere meiner Interessen wie Kulturverständnis oder Geschichte prägen meine Posts genauso ausgeprägt.
-
-Mehr Infos findest du im [Wiki dieses Repositorys](https://github.com/jakobhillebrand/derebus/wiki "De Rebus: Wiki").
+Ich bin Student der Germanistik und Philosophie. Andere meiner Interessen wie Kulturverständnis oder Geschichte prägen meine Posts genauso ausgeprägt.\
+[mehr Infos...](https://github.com/jakobhillebrand/derebus/wiki "De Rebus: Wiki")
 
 <br/>
 
