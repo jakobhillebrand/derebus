@@ -7,15 +7,20 @@ permalink: /kontakt/
 <h1 class="post-title">{{ page.title }}</h1>
 <div class="post-line"></div>
 
+<p>
+  Du möchtest mir etwas mitteilen, mich inspirieren oder mich auf etwas hinweisen? Dann schreibe mir doch eine Nachricht. 
+  Hierfür sei Dir unten ein Kontaktformular dahingestellt. Ich freue mich auf Deine Nachricht. &#128522;
+</p>
+
 <div class="container contact-form">
   <form action="https://formsubmit.co/72391d7114c12ea7e08783b659b70e06" method="POST" enctype="multipart/form-data">
-    <input type="text" name="Name" class="form-control" placeholder="Name" required>
+    <input type="text" name="Name" class="form-control" placeholder="Name*" required>
 
-    <input type="email" name="E-Mail" class="form-control" placeholder="E-Mail-Adresse" required>
+    <input type="email" name="E-Mail" class="form-control" placeholder="E-Mail-Adresse*" required>
      
-    <input type="text" name="Betreff" class="form-control" placeholder="Betreff" required>
+    <input type="text" name="Betreff" class="form-control" placeholder="Betreff*" required>
 
-    <textarea placeholder="Deine Nachricht" class="form-control" name="Nachricht" rows="10" required></textarea>
+    <textarea placeholder="Deine Nachricht" class="form-control" name="Nachricht*" rows="10" required></textarea>
     
     <label class="file-upload">
       <input type="file" name="Anhang" style="display:none">
