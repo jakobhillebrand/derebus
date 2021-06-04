@@ -8,16 +8,12 @@
   margin-bottom: 16px;
   resize: vertical;
 }
-  
-  .file-upload {
+
+.file-upload {
   border: 1px solid #ccc;
-    display: inline-block;
-    padding: 3px 6px;
-    cursor: pointer;
-  }
-  
-  input[type="file"] {
-    display: none;
+  display: inline-block;
+  padding: 3px 6px;
+  cursor: pointer;
 }
 
 .submit-button {
@@ -33,8 +29,4 @@
 
 .submit-button:hover {
   background-color: #45a049;
-}
-
-.container {
-  padding: 10px;
 }
