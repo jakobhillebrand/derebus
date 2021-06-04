@@ -10,7 +10,7 @@ Ich bin Student der Germanistik und Philosophie. Andere meiner Interessen wie Ku
 
 <br/>
 
-### Über das Web-Design & den Code
+### Der Website-Build
 
 Bei diesem Blog handelt es sich um eine statische Webseite, die durch [Jekyll](https://jekyllrb.com/ "Jekyll") generiert wird. Jekyll ist eine Open-Source-Software, welche in der Programmiersprache Ruby geschrieben ist. Gehostet wird der Blog derzeit auf [GitHub Pages](https://pages.github.com/ "GitHub Pages"). Als Basis habe ich das Design-Theme [Tale](https://github.com/chesterhow/tale "Tale by Chester How") gewählt und dieses dementsprechend an die deutsche Sprache und designtechnisch an meine Bedürfnisse angepasst.
 Ich liebe das minimalistische Design der Vorlage und wollte ihm trotzdem einen individuellen Hauch hinzufügen – so ist mein Blog sehr textfokussiert und bleibt für mich als Autor und hoffentlich auch für Dich als Leser stets relevant. :grin:
