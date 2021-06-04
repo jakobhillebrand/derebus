@@ -36,8 +36,31 @@
   margin-bottom: 16px;
   font-family: $serif-primary;
   font-size: 1rem;
+
+  :hover {
+    background-color: #45a049;
+  }
 }
 
-.submit-button:hover {
-  background-color: #45a049;
+.c-success {
+  position: relative;
+  text-align: center;
+  margin: 4rem 0;
+
+  &-title {
+    font-size: 4rem;
+    margin: 1rem 0;
+  }
+
+  &-line {
+    border-top: 0.4rem solid $default-shade;
+    display: block;
+    margin: 0 auto 3rem;
+    width: 4rem;
+  }
+
+  &-message {
+    max-width: 25rem;
+    margin: 0 auto;
+  }
 }
