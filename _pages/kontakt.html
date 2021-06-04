@@ -27,9 +27,7 @@ permalink: /kontakt/
     cursor: pointer;
   }
   
-  input[type="file"] {
-    display: none;
-}
+  
 
 .submit-button {
   background-color: #04AA6D;
@@ -62,9 +60,8 @@ permalink: /kontakt/
      <input type="text" name="Betreff" class="form-control" placeholder="Betreff" required>
 
     <textarea placeholder="Deine Nachricht" class="form-control" name="Nachricht" rows="10" required></textarea>
-    <label class="file-upload">
-      <input type="file" name="Anhang">
-    </label>
+    
+    <input type="file" name="Anhang" class="form-control">
     
     <input type="text" name="_honey" style="display:none">
         <input type="hidden" name="_subject" value="Kontakt ‚De Rebus‘">
