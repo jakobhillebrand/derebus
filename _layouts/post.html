@@ -23,19 +23,13 @@ layout: default
   
   
   
-  <span>[
-  {% for tag in page.tags %}
-    {% capture tag_name %}{{ tag }}{% endcapture %}
-    <code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>
-  {% endfor %}
-]</span>
-  
-  <div>
-  {% if page.tags.size > 0 %}
+  <div class="tags-clouds">
+    {% if page.tags.size > 0 %}
   Tag{% if page.tags.size > 1 %}s{% endif %}:
   {{ page.tags | sort | join: ", " }}
 {% endif %}
   </div>
+  
   
   
 
