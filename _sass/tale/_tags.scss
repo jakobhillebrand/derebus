@@ -19,10 +19,6 @@
   &-clouds {
     text-align: center;
     font-family: $sans-serif;
-    
-    .post-tags {
-      margin-bottom: 3rem;
-    }
 
     a {
       display: inline-block;
@@ -91,3 +87,7 @@
     }
   }
 }
+
+.post-tags {
+  margin-bottom: 3rem;
+ }
