@@ -22,9 +22,9 @@ layout: default
   <div class="post-line"></div>
   
   <div class="tags-clouds">
-    {% if post.tags.size > 0 %}
-      Tag{% if post.tags.size > 1 %}s{% endif %}:
-      {{ post.tags | sort | join: ", " }}
+    {% if site.tags.size > 0 %}
+      Tag{% if site.tags.size > 1 %}s{% endif %}:
+      {{ site.tags | sort | join: ", " }}
     {% endif %}
   </div>
 
