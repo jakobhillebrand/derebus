@@ -24,6 +24,12 @@ layout: default
   
   
   <div class="tags-clouds">
+    {% for tag in page.tags %}
+    <a href="#{{ tag[0] }}">{{ tag[0] }}</a>
+    {% endfor %}
+  </div>
+  
+  <div class="tags-clouds">
     {% if page.tags.size > 0 %}
   {{ page.tags | sort | join: ", " }}
 {% endif %}
