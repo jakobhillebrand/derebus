@@ -13,7 +13,7 @@ main,
 }
 
 .nav {
-  box-shadow: 0 2px 2px -2px $blue;
+  box-shadow: 0 2px 2px -2px $shadow-color;
   overflow: auto;
 
   &-container {
@@ -83,9 +83,9 @@ main,
 
 footer {
   font-family: $serif-secondary;
-  box-shadow: 0 2px 2px -2px $shadow-color;
+  box-shadow: 0 -2px 2px -2px $shadow-color;
   overflow: auto;
-  padding: 2rem 0;
+  padding: 1rem 0;
   text-align: center;
   display: block;
   margin: 0 auto;
