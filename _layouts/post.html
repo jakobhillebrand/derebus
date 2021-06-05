@@ -21,8 +21,8 @@ layout: default
   <h1 class="post-title">{{ page.title }}</h1>
   <div class="post-line"></div>
   
-  <div>
-    <a href="https://jakobhillebrand.github.io/derebus/tags/#{{ page.tags }}">{{ page.tags }}</a>
+  <div class="tags-clouds">
+    <a href="{{ site.url }}/tags/#{{ page.tags }}">{{ page.tags }}</a>
   </div>
 
   {{ content }}
