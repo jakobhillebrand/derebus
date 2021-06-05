@@ -28,7 +28,7 @@ layout: default
   <ul class="tags">
   {% for tag in page.tags %}
   <li class="weight-{{ tag.weight | round }}">
-    <a title="Site Tag: {{ tag }}" href="{{ site.url }}/tags#{{ page.tags }}">
+    <a title="Site Tag: {{ tag }}" href="{{ site.url }}/tags#{{ tag }}">
       {{ tag }}
     </a>
   </li>
