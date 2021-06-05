@@ -25,7 +25,6 @@ layout: default
   
   <div class="tags-clouds">
     {% if page.tags.size > 0 %}
-  Tag{% if page.tags.size > 1 %}s{% endif %}:
   {{ page.tags | sort | join: ", " }}
 {% endif %}
   </div>
