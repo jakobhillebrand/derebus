@@ -25,26 +25,10 @@ layout: default
     <a href="{{ site.url }}/tags/#{{ page.tags }}">{{ page.tags }}</a>
   </div>
   
-  <div class="tags-clouds">
-    {% for tag in page.tags %}
-    <a href="#{{ tag[0] }}">{{ tag[0] }}</a>
-    {% endfor %}
-  </div>
-  
-  <ul class="tags">
-  {% for tag in post.tags %}
-  <li class="weight-{{ tag.weight | round }}">
-    <a title="Site Tag: {{ tag }}" href="{{ tag.url | pretty }}">
-      {{ tag }}
-    </a>
-  </li>
-  {% endfor %}
-</ul>
-  
   <ul class="tags">
   {% for tag in page.tags %}
   <li class="weight-{{ tag.weight | round }}">
-    <a title="Site Tag: {{ tag }}" href="{{ tag.url | pretty }}">
+    <a title="Site Tag: {{ tag }}" href="{{ site.url }}/tags#{{ page.tags }}">
       {{ tag }}
     </a>
   </li>
