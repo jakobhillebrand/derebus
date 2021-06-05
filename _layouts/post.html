@@ -21,12 +21,7 @@ layout: default
   <h1 class="post-title">{{ page.title }}</h1>
   <div class="post-line"></div>
   
-  <div>
-    {% if site.tags.size > 0 %}
-      Tag{% if site.tags.size > 1 %}s{% endif %}:
-      {{ site.tags | sort | join: ", " }}
-    {% endif %}
-  </div>
+  
 
   {{ content }}
   
