@@ -36,6 +36,17 @@ layout: default
 </div>
   
   
+  <div class="tags-clouds">
+  {% for tag in page.tags %}
+  <div class="weight-{{ tag.weight | round }}">
+    <a title="Site Tag: {{ tag }}" href="{{ site.url }}/tags#{{ tag }}">
+      {{ tag }}
+    </a>
+  </div>
+  {% endfor %}
+</div>
+  
+  
   <ul class="tags-clouds">
   {% for tag in page.tags %}
   <li class="weight-{{ tag.weight | round }}">
