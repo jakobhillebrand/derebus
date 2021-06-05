@@ -21,26 +21,11 @@ layout: default
   <h1 class="post-title">{{ page.title }}</h1>
   <div class="post-line"></div>
   
-  
-  
   <div class="tags-clouds">
-  {% for tag in page.tags %}
-    <a title="{{ tag }}" href="{{ site.url }}/tags#{{ tag }}">{{ tag }}</a>
-  {% endfor %}
-</div>
-  
-  
-  <div class="tags-clouds">
-  {% for tag in page.tags %}
-  <div class="weight-{{ tag.weight | round }}">
-    <a title="Site Tag: {{ tag }}" href="{{ site.url }}/tags#{{ tag }}">
-      {{ tag }}
-    </a>
+    {% for tag in page.tags %}
+      <a title="{{ tag }}" href="{{ site.url }}/tags#{{ tag }}">{{ tag }}</a>
+    {% endfor %}
   </div>
-  {% endfor %}
-</div>
-  
-
   
   {{ content }}
   
