@@ -24,6 +24,15 @@ layout: default
   <div class="tags-clouds">
     <a href="{{ site.url }}/tags/#{{ page.tags }}">{{ page.tags }}</a>
   </div>
+  
+  <div class="tags-clouds">
+    {% for tag in page.tags %}
+    <a href="#{{ tag[0] }}">{{ tag[0] }}</a>
+    {% endfor %}
+  </div>
+  {% for tag in page.tags %}
+  
+  
 
   {{ content }}
   
