@@ -31,9 +31,6 @@ plugins:
   - jekyll-paginate
   - jekyll-seo-tag
   - jemoji
-  
- feed:
-   posts_limit: 20
 
 # Permalinks
 permalink:      /:year-:month-:day
