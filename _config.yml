@@ -33,7 +33,7 @@ plugins:
   - jemoji
   
  feed:
-   posts_limit: 10000
+   posts_limit: 20
 
 # Permalinks
 permalink:      /:year-:month-:day
