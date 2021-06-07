@@ -11,13 +11,9 @@ permalink: /archiv/
     <div class="tags-header-line"></div>
   </div>
   
-  
-  
-  
-  
   {% for tag in site.tags %}
   
-  <div class="tags-item" id="{{ tag[0] }}">
+  <div class="tags-item">
     <h2 class="tags-item-label">{{ tag[0] }}</h2>
     
     {% for post in tag[1] %}
@@ -53,8 +49,31 @@ permalink: /archiv/
     <h2 id="{{ this_year }}-ref">{{this_year}}</h2>
     <div>
     {% endif %}
+      
+      
+      
 
-    <div><a href="{{ post.url }}">{{ post.title }}</a></div>
+   
+      
+      
+      
+      <a class="tags-post" href="{{ post.url | prepend: site.baseurl }}">
+      
+      <div>
+        <span class="tags-post-title">{{ post.title }}</span>
+        <div class="tags-post-line"></div>
+      </div>
+      
+      <span class="tags-post-meta">
+        <time datetime="{{ post.date }}">
+          {{ post.date | date:"%Y-%m-%d" }}
+        </time>
+      </span>
+      
+    </a>
+      
+      
+      
 
     {% if forloop.last %}
     </div>
