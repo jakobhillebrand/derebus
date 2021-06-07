@@ -22,6 +22,9 @@ sass:
   sass_dir:     _sass
   style:        compressed
 
+default:
+  excerpt_separator: <!--more-->
+
 # Gems
 plugins:
   - jekyll-feed
