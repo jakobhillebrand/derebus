@@ -3,6 +3,7 @@ layout: post
 title: "Managing Excerpt"
 author: "Chester"
 tags: Tutorial
+date: 2019-01-01
 excerpt_separator: <!--more-->
 ---
 
