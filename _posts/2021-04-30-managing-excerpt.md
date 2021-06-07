@@ -4,7 +4,6 @@ title: "Managing Excerpt"
 author: "Chester"
 tags: Tutorial
 date: 2019-01-01
-excerpt_separator: <!--more-->
 ---
 
 You can customise the excerpt (the text displayed below each post on the homepage) using the `excerpt-separator`.<!--more--> Here's how you can do so!
