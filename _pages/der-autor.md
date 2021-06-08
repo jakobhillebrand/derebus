@@ -1,8 +1,13 @@
 ---
-layout: default
+layout: post
 title: "Der Autor"
+author: none
 permalink: /der-autor/
 ---
+
+<h1 class="post-title">{{ page.title }}</h1>
+<div class="post-line"></div>
+
 
 A friend of mine writes short stories. One sunny day, I asked if he wanted a website to showcase his works and he agreed. I decided to use GitHub Pages to host his site. That way he wouldn't have to buy a domain and a server.
 
