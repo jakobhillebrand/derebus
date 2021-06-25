@@ -23,4 +23,4 @@ This follows [Jekyll's recommended way of managing excerpts](https://jekyllrb.co
 See [this post](https://github.com/chesterhow/tale/blob/master/_posts/2021-04-30-managing-excerpt.md) or the ["Introducing Tale" post](https://github.com/chesterhow/tale/blob/master/_posts/2017-03-29-introducing-tale.md).
 
 TryOut
-[PDF.js Viewer](../web/viewer.html?file=https://www.jena.de/fm/41/test.pdf)
+[PDF.js Viewer](../web/viewer.html)
