@@ -24,10 +24,10 @@ body {
   -webkit-text-size-adjust: 100%;
   
   scrollbar-width: auto;
-  scrollbar-color: darkgrey #F1F1F1;
+  scrollbar-color: #C1C1C1 #F1F1F1;
   
   &::-webkit-scrollbar {
-    width: 1rem;
+    width: 0.5rem;
   }
  
   &::-webkit-scrollbar-track {
@@ -35,11 +35,10 @@ body {
   }
  
   &::-webkit-scrollbar-thumb {
-    background-color: darkgrey;
-    outline: 3px solid slategrey;
+    background-color: #C1C1C1;
     
     &:hover {
-      background: #555; 
+      background: #A8A8A8; 
     }
   } 
 }
