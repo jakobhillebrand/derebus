@@ -23,15 +23,18 @@ html {
 body {
   -webkit-text-size-adjust: 100%;
   
-  ::-webkit-scrollbar {
+  scrollbar-width: 1em;
+  scrollbar-color: darkgrey;
+  
+  &::-webkit-scrollbar {
     width: 1em;
   }
  
-  ::-webkit-scrollbar-track {
+  &::-webkit-scrollbar-track {
       -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
   }
  
-  ::-webkit-scrollbar-thumb {
+  &::-webkit-scrollbar-thumb {
     background-color: darkgrey;
     outline: 1px solid slategrey;
     
